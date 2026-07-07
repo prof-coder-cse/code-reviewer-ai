@@ -17,15 +17,15 @@ export default function Navbar() {
         </div>
       </div>
 
-      <div className="flex items-center gap-4">
-        <span className="px-4 py-2 rounded-full bg-green-500/15 border border-green-500/30 text-green-400 font-medium">
-          🟢 Gemini 2.5 Flash
-        </span>
+     <div className="flex items-center gap-3">
+  <span className="px-4 py-2 rounded-full bg-blue-500/15 border border-blue-500/30 text-blue-400 font-semibold">
+    ⚡ AI Powered
+  </span>
 
-        <span className="px-4 py-2 rounded-full bg-zinc-800 text-zinc-300">
-          v1.0
-        </span>
-      </div>
+  <span className="px-4 py-2 rounded-full bg-green-500/15 border border-green-500/30 text-green-400 font-semibold">
+    ✔ Production Ready
+  </span>
+</div>
     </nav>
   );
 }
