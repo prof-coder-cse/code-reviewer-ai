@@ -6,7 +6,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://code-reviewer-ai-1-7rkp.onrender.com",
     methods: ["GET", "POST"],
     credentials: true,
   }),
